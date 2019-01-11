@@ -1,9 +1,10 @@
 {
   "name": "api-server-solution",
   "version": "1.0.0",
-  "description": "",
+  "description": "![CF](http://i.imgur.com/7v5ASc8.png) LAB =================================================",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest --verbose",
     "test-watch": "jest --watchAll --verbose"
   },
@@ -24,5 +25,13 @@
     "morgan": "^1.9.1",
     "supertest": "^3.3.0",
     "uuid": "^3.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrentTech/14-orm-and-modeling.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BrentTech/14-orm-and-modeling/issues"
+  },
+  "homepage": "https://github.com/BrentTech/14-orm-and-modeling#readme"
 }
