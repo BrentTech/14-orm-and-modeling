@@ -1,7 +1,7 @@
 'use strict';
 
-const rootDir = process.cwd();
-const Players = require(`${rootDir}/src/models/players.js`);
+
+const players = require('../../../src/models/players.js');
 
 const supergoose = require('../supergoose.js');
 
@@ -10,8 +10,7 @@ afterAll(supergoose.stopDB);
 
 describe('Players Model', () => {
   it('can post() a new player', () => {
-    let obj = {name:'John', bats:'R',throws:'R',position:'C',team:'Bunnies'};
-    let players = new Players();
+    let obj = {name:'John',position:'C',team:'Bunnies'};
     return players.post(obj)
       .then(record => {
         Object.keys(obj).forEach(key =>{
@@ -21,8 +20,7 @@ describe('Players Model', () => {
   });
 
   it('can get() a player', () => {
-    let obj = {name:'John', bats:'R',throws:'R',position:'C',team:'Bunnies'};
-    let players = new Players();
+    let obj = {name:'John',position:'C',team:'Bunnies'};
     return players.post(obj)
       .then(record => {
         return players.get(record._id)
