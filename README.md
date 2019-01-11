@@ -6,9 +6,10 @@
 ### Author: Brent Woodward
 
 ### Links and Resources
-* [repo]()
-* [travis]()
-* [back-end]() (when applicable)
+[![Build Status](https://www.travis-ci.com/BrentTech/14-orm-and-modeling.svg?branch=master)](https://www.travis-ci.com/BrentTech/14-orm-and-modeling)
+* [repo](https://github.com/BrentTech/14-orm-and-modeling)
+* [travis](https://www.travis-ci.com/BrentTech/14-orm-and-modeling)
+* [back-end](https://lab14apiserver.herokuapp.com/) (when applicable)
 
 
 #### Documentation
