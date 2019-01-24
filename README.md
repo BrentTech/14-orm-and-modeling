@@ -13,7 +13,7 @@
 
 
 #### Documentation
-* jsdoc notation available in files.
+* [jsdocs](https://lab14apiserver.herokuapp.com/docs)
 
 ### Modules
 #### `modulename.js`
